@@ -495,6 +495,9 @@ CREATE TABLE `ranking_weights` (
 -- Dumping data for table `ranking_weights`
 --
 
+INSERT INTO `ranking_weights` (`id`, `weightSolvency`, `weightLiquidity`, `weightROI`, `weightCompletionRate`, `weightApprovalRate`, `weightProjectDelayImpact`, `weightBudgetDeviationImpact`, `weightAccuracy`, `weightCompliance`, `weightCommunityEngagement`, `weightTotalProjects`, `weightCompletedProjects`, `weightTotalTasks`, `weightCompletedTasks`, `weightTotalProposals`, `weightApprovedProposals`) VALUES
+(1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1);
+
 --------------------------------------------------------
 
 --
@@ -628,6 +631,8 @@ CREATE TABLE `thresholds` (
 -- Dumping data for table `thresholds`
 --
 
+INSERT INTO `thresholds` (`id`, `roi_threshold`, `liability_threshold`, `solvency_threshold`) VALUES
+(1, 0.07, 1.00, 0.60);
 
 -- Indexes for dumped tables
 --
