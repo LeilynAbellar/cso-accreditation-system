@@ -1,13 +1,13 @@
 # Uploaded user files
-DA/uploads/
-DA/financial_reports/
-DA/id_uploads/
-DA/accomplishment/
-DA/proposals/
-DA/profile/user/
-DA/profile/chairperson/
-DA/projects/
-DA/renewal/
+uploads/
+financial_reports/
+id_uploads/
+accomplishment/
+proposals/
+profile/user/
+profile/chairperson/
+projects/
+renewal/
 
 # IDE
 .vscode/
